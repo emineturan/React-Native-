@@ -1,15 +1,49 @@
-> Why do I have a folder named ".expo" in my project?
+📱 Learn React Native
+Learn React Native is an interactive and educational mobile application designed for users who want to learn React Native. The app offers various modules such as lessons, quizzes, competitions, a code editor, and personal profile management.
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+🔍 Purpose of the App
+The purpose of this app is to make the process of learning React Native more enjoyable and systematic. Users can learn topics at their own pace, test their knowledge, and even compete with other users.
 
-> What do the files contain?
+🧩 App Modules
+📚 1. Lessons
+Topics are categorized based on React Native subjects.
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
+Each topic includes:
 
-> Should I commit the ".expo" folder?
+A summary (in text format),
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+External resources (e.g., YouTube videos),
 
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+Tips and key points to keep in mind.
+
+Users can start from any topic and plan their own learning journey.
+
+❓ 2. Quiz
+Includes questions related to React Native.
+
+At the end of each quiz:
+
+The number of correct and incorrect answers is displayed.
+
+Explanations are provided for incorrectly answered questions.
+
+Users can restart the quiz if they wish.
+
+🏁 3. Competitions
+Displays the top 5 users with the highest scores and activity status.
+
+Users can participate in competitions based on their activity levels.
+
+Scores and activity statuses are updated in real-time.
+
+💻 4. Code Editor
+Includes sample projects (e.g., counter app, to-do list, etc.).
+
+Users can select a project and practice coding directly within the app.
+
+👤 5. Profile
+Displays the user's name, earned badges, and achievements.
+
+Users can write personal notes and add reminders.
+
+Progress within the app can be tracked.
